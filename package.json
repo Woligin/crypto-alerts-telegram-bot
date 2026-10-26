@@ -1,0 +1,12 @@
+{
+  "name": "crypto-alerts-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that watches Binance/Bybit public data and notifies you when your rules fire. Notifications only, never trades. Zero dependencies.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test test/rules.test.js test/exchange.test.js test/monitor.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

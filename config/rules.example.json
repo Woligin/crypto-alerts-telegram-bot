@@ -1,0 +1,7 @@
+[
+  { "type": "move", "symbol": "BTCUSDT", "minutes": 60, "percent": 3 },
+  { "type": "cross", "symbol": "SOLUSDT", "above": 250 },
+  { "type": "cross", "symbol": "SOLUSDT", "below": 100 },
+  { "type": "funding", "symbol": "ETHUSDT", "above": 0.0005 },
+  { "type": "funding", "symbol": "ETHUSDT", "below": -0.0005 }
+]
